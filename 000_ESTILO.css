@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "comic sans ms";
+}
+.fondo{
+    background-image: url("design2_image1.jpg");
+    background-size: cover;
+    height:600px;
+}
+.titulo{
+    font-size: 2em;
+    margin: 3% 0% 0% 2%;
+}
+#logo{
+    content: url("nysl_logo.png");
+    padding-bottom: 80%;
+    width: 10%;
+    margin: 2% 8% 0% 2%;
+    float: left;
+}
+#subtitulo{
+    text-align: center;
+    color:black;
+    background-color: white;
+    margin: 1% 0% 1% 0%;
+}
+#contenido{
+    margin: 2% 0% 0% 0%;
+}
+#boton{
+    position: relative;
+    float: right;
+    bottom: 10px;
+    margin-right: 2%;
+}
+.boton_on{
+    background-color: yellowgreen;
+    color: white;
+}
+.boton_off{
+    background-color: blue;
+    color: black;
+}
