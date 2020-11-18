@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Northside Youth Soccer League</title>
+    <link rel="stylesheet" href="ESTILO.css">
 </head>
+
 <body>
-    <h1>
-        <img 
-        src ="nysl_logo.png"
-        alt ="NYLS"
-        width=80px
-        >
-        Northside Youth Soccer League
-    </h1>
-    <p id="direcciones"><a href="HOME.html"> Home</a> | <a href="ABOUT.html">About NYSL</a> | <a href="CONTACT.html">Contact</a></p>
-    <br>
-    <div>
-    <img
-        style="float: left;"
-        style="padding: 15px;"
-        src="soccer_image1.jpg"
-        alt="NYSL"
-        width="100"
-    >
-    <h2>
-        Upcoming Events
-    </h2>
+    <header>
+    <div class="image titulo">
+        <h1>Northside Youth Soccer League</h1>
     </div>
-    <pre style="padding: 10px;margin-left: 120px;">
-August 4
-    NYSL Fundraiser
-August 16
-    Season Kick-off: Meet the Teams
-September 1
-    First Game of the Season (Check Game Schedule for details)
-    </pre>
+    </header>
+    <div id="subtitulo">
+        <h2>Upcoming Events<img id="logo"></h2>
+    </div>
+    <div id="columna_derecha">
+        <p><a href="HOME.html"> Home</a><br><br><a href="ABOUT.html">About NYSL</a><br><br><a href="CONTACT.html">Contact</a></p>
+    </div>
+    <div id="contenido">
+    <dl>
+    <dt><i>August 4</i></dt>
+        <dd><pre>       NYSL Fundraiser</pre></dd>
+    <dt><i>August 16</i></dt>
+        <dd><pre>       Season Kick-off: Meet the Teams</pre></dd>
+    <dt><i>September 1</i></dt>
+        <dd><pre>       First Game of the Season (Check Game Schedule for details)</pre></dd>
+    </dl>
+    </div>
 </body>
 </html>
-
-<style>
-    body{
-    margin: 60px;}
-    #direcciones{
-    margin-left: 90px;}
-    html,pre{
-        font-family: "comic sans ms";}
-</style>
